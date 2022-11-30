@@ -1,0 +1,40 @@
+*{
+    cursor: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #10101a;
+    height:200px;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo {
+    height: 130px;
+    padding-left: 40px;
+    display: inline;
+}
+
+li{
+    margin-right: 40px;
+    color: #efefef;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.5s;
+    height:30px
+}
+
+li:hover{
+    font-size: 20px;
+    color: rgba(0, 140, 150, 0.705);
+}
+
+.navbar-list{
+    position: relative;
+    left: -250px;
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+}

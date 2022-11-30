@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    background-color: #10101a;
+    cursor: none;
+}
+
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 129, 151);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+#cursor-border {
+    --size: 30px;
+    position: fixed;
+    top: calc(var(--size) / -2);
+    left: calc(var(--size) / -2);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgb(0, 113, 165);
+    pointer-events: none;
+    transition: top 0.5s ease-out, left 0.5s ease-out, width 0.5s ease-out,
+      height 0.5s ease-out, background-color 0.5s ease-out;
+    z-index: 995;
+    opacity: 0.3;
+}
+
+.middle {
+    background-image: url(/assets/hand-right.webp);
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 7rem;
+    right: 0;
+    width: 10rem;
+    height: 17rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
