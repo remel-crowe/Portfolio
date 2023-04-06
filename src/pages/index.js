@@ -8,7 +8,7 @@ import { useState } from "react";
 import Nav from "@/components/BottomNav";
 import Image from "next/image";
 import bitmoji from "/public/bitmoji.png";
-import hastag from "/public/code.png";
+import hashtag from "/public/code.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -56,7 +56,7 @@ export default function Home() {
             <AiOutlineCaretDown className="animate-bounce w-6 h-6 text-teal-500" />
           </div> */}
           <Image
-            src={hastag}
+            src={hashtag}
             className="absolute right-4 opacity-[35%]"
           ></Image>
           <Nav />
@@ -94,7 +94,7 @@ export default function Home() {
         </section>
         {/* PROJECTS */}
         <section id="projectSection">
-          <Image className="opacity-50" src={hastag}></Image>
+          <Image className="opacity-50" src={hashtag}></Image>
           <div></div>
         </section>
       </main>
