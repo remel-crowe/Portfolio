@@ -24,7 +24,7 @@ const Nav = () => {
         rounded-full"
     >
       <a
-        href="https://github.com/remel-crowe"
+        href="#projectSection"
         className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
       >
         <AiFillGithub className="text-cyan-500" />

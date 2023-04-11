@@ -20,9 +20,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="dark:bg-bluey px-10 min-h-max ">
+      <main className="dark:bg-bluey px-10">
         {/* LANDING PAGE */}
-        <section className="min-h-screen">
+        <section className="min-h-fit">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-raleway dark:text-stone-400 text-bluey">
               remcrw.dev
@@ -36,29 +36,32 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10">
-            <h2 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-bluey">
-              Remel Straker - Crowe
-            </h2>
-            <h3 className="dark:text-white text-cyan-500 text-xl font-poppins">
-              Web Developer | IT Analyst | Network Engineer
-            </h3>
-          </div>
-          <div className="flex justify-center">
-            <div className="flex items-center gap-5">
-              <FaReact className="text-cyan-500 w-7 h-7" />
-              <DiJavascript className="text-yellow-500 w-7 h-7" />
-              <DiCss3 className="text-orange-500 w-7 h-7" />
-              <SiTailwindcss className="text-cyan-400 w-7 h-7" />
+          <div className="flex flex-col mt-40">
+            <div className="text-center p-10">
+              <h2 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-bluey">
+                Remel Straker - Crowe
+              </h2>
+              <h3 className="dark:text-white text-cyan-500 text-xl font-poppins">
+                Web Developer | IT Analyst | Network Engineer
+              </h3>
             </div>
+            <div className="flex justify-center">
+              <div className="flex items-center gap-5">
+                <FaReact className="text-cyan-500 w-7 h-7" />
+                <DiJavascript className="text-yellow-500 w-7 h-7" />
+                <DiCss3 className="text-orange-500 w-7 h-7" />
+                <SiTailwindcss className="text-cyan-400 w-7 h-7" />
+              </div>
+            </div>
+            <Image
+              src={hashtag}
+              className="absolute right-4 bottom-3 opacity-[35%]"
+            ></Image>
           </div>
+
           {/* <div className="flex justify-center align-bottom mt-20">
             <AiOutlineCaretDown className="animate-bounce w-6 h-6 text-teal-500" />
           </div> */}
-          <Image
-            src={hashtag}
-            className="absolute right-4 opacity-[35%]"
-          ></Image>
           <Nav />
         </section>
         {/* ABOUT ME */}
@@ -92,10 +95,55 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* PROJECTS */}
+
+        {/* Experience */}
         <section id="projectSection">
-          <Image className="opacity-50" src={hashtag}></Image>
-          <div></div>
+          <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300 mt-10">
+            <span className="text-cyan-500">02.</span> Places I've Worked!
+          </h1>
+          <div
+            id="heh"
+            className="grid grid-flow-col grid-cols-2 align-middle justify-center px-7"
+          >
+            <div></div>
+            <div className="flex flex-col gap-3"></div>
+          </div>
+        </section>
+        {/* PROJECTS */}
+        <section>
+          <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300 mt-10">
+            <span className="text-cyan-500">03.</span> Things I've worked on!
+          </h1>
+        </section>
+        {/* CONTACT ME  */}
+
+        <section id="contactMe" className="">
+          <div className="font-poppins text-md text-stone-300">
+            <h2 className="">You've reached the end of my site...</h2>
+            <h1>
+              Or the start of something new 🙌 - Lets have a{" "}
+              <span className="">chat!</span>
+            </h1>
+            <h3>
+              I'm looking to join a team of developers who can assist me in
+              developing my skillset and take me to the next level. If you feel
+              I may be a good fit for your team, let me know via
+              <a
+                className=" hover:text-cyan-500 transition duration-300"
+                href="mailto:remelscrowe@gmail.com"
+              >
+                email 📧,
+              </a>
+              or drop me a
+              <a
+                className="hover:text-cyan-500 transition duration-300"
+                href="https://telegram.me/remcrw"
+              >
+                Message📲
+              </a>
+              on Telegram.
+            </h3>
+          </div>
         </section>
       </main>
     </div>
