@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import bitmoji from "/public/bitmoji.png";
 import { FaReact } from "react-icons/Fa";
 import { DiJavascript, DiCss3 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
