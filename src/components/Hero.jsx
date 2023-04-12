@@ -10,11 +10,11 @@ function Hero() {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col">
-      <nav className="py-10 mb-12 flex justify-between">
+    <div className=" relative h-screen flex flex-col justify-center">
+      <nav className=" absolute top-0 py-10 mb-12">
         <h1 className="text-xl font-raleway text-white">remcrw.dev</h1>
       </nav>
-      <div className="flex flex-col space-y-8 items-center justify-center m-auto">
+      <div className="flex flex-col space-y-8 items-center justify-center ">
         <BackgroundCircles />
         <h1 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-white">
           Remel Straker - Crowe
