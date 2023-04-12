@@ -1,14 +1,12 @@
 import Head from "next/head";
-import { CgDarkMode, CgHashtag } from "react-icons/cg";
-
-import { FaReact } from "react-icons/Fa";
-import { DiJavascript, DiCss3 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
 import { useState } from "react";
 import Nav from "@/components/BottomNav";
-import Image from "next/image";
-import bitmoji from "/public/bitmoji.png";
-import hashtag from "/public/code.png";
+import { CgDarkMode, CgHashtag } from "react-icons/cg";
+import Projects from "@/components/Projects";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,132 +18,44 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="dark:bg-bluey px-10">
+      <div className="bg-[rgb(36,36,36)] text-white px-10 h-screen snap-y snap-mandatory overflow-scroll z-0">
         {/* LANDING PAGE */}
-        <section className="min-h-fit">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-raleway dark:text-stone-400 text-bluey">
-              remcrw.dev
-            </h1>
-            <ul className="flex items-center gap-5">
-              <li class>
-                <CgDarkMode
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" dark:text-white cursor-pointer text-2xl mr-6 h-4 w-4"
-                />
-              </li>
-            </ul>
-          </nav>
-          <div className="flex flex-col mt-40">
-            <div className="text-center p-10">
-              <h2 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-bluey">
-                Remel Straker - Crowe
-              </h2>
-              <h3 className="dark:text-white text-cyan-500 text-xl font-poppins">
-                Web Developer | IT Analyst | Network Engineer
-              </h3>
-            </div>
-            <div className="flex justify-center">
-              <div className="flex items-center gap-5">
-                <FaReact className="text-cyan-500 w-7 h-7" />
-                <DiJavascript className="text-yellow-500 w-7 h-7" />
-                <DiCss3 className="text-orange-500 w-7 h-7" />
-                <SiTailwindcss className="text-cyan-400 w-7 h-7" />
-              </div>
-            </div>
-            <Image
-              src={hashtag}
-              className="absolute right-4 bottom-3 opacity-[35%]"
-            ></Image>
-          </div>
-
-          {/* <div className="flex justify-center align-bottom mt-20">
-            <AiOutlineCaretDown className="animate-bounce w-6 h-6 text-teal-500" />
-          </div> */}
+        <section id="hero" className="snap-center">
+          <Hero />
           <Nav />
         </section>
+
         {/* ABOUT ME */}
-        <section id="about-section" className="h-full ">
-          <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300">
-            <span className="text-cyan-500">01.</span> About Me
-          </h1>
-          <div
-            id="heh"
-            className="grid grid-flow-col grid-cols-2 align-middle justify-center px-7"
-          >
-            <div className="flex flex-col gap-3">
-              <p className="font-poppins text-md text-stone-300 ">
-                Hi visitor👋, my name is Remel and im an aspiring frontend
-                engineer with a strong interest in developing online presences,
-                wether it be through SEO, Content Creation or a mixture of both.
-              </p>
-              <p className="font-poppins text-md text-stone-300 ">
-                My interest in web development sparked while in an IT position
-                within the Google offices. Being surrounded by hundreds of
-                software developers 5 days a week has it's way of turning you
-                into one.. Or atleast a wannabe 😁
-              </p>
-              <p className="font-poppins text-md text-stone-300 ">
-                Since then I've managed to create a few projects - including
-                this webpage! Check them out below!
-              </p>
-            </div>
-            <div id="img" className="flex justify-center">
-              <Image src={bitmoji} className="" />
-            </div>
-          </div>
+        <section id="about-section" className="snap-center">
+          <About />
         </section>
 
         {/* Experience */}
-        <section id="projectSection">
-          <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300 mt-10">
-            <span className="text-cyan-500">02.</span> Places I've Worked!
-          </h1>
-          <div
-            id="heh"
-            className="grid grid-flow-col grid-cols-2 align-middle justify-center px-7"
-          >
-            <div></div>
-            <div className="flex flex-col gap-3"></div>
-          </div>
+        <section id="experience-section" className="snap-center">
+          <Experience />
         </section>
-        {/* PROJECTS */}
-        <section>
-          <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300 mt-10">
-            <span className="text-cyan-500">03.</span> Things I've worked on!
-          </h1>
-        </section>
-        {/* CONTACT ME  */}
 
-        <section id="contactMe" className="">
-          <div className="font-poppins text-md text-stone-300">
-            <h2 className="">You've reached the end of my site...</h2>
-            <h1>
-              Or the start of something new 🙌 - Lets have a{" "}
-              <span className="">chat!</span>
-            </h1>
-            <h3>
-              I'm looking to join a team of developers who can assist me in
-              developing my skillset and take me to the next level. If you feel
-              I may be a good fit for your team, let me know via
-              <a
-                className=" hover:text-cyan-500 transition duration-300"
-                href="mailto:remelscrowe@gmail.com"
-              >
-                email 📧,
-              </a>
-              or drop me a
-              <a
-                className="hover:text-cyan-500 transition duration-300"
-                href="https://telegram.me/remcrw"
-              >
-                Message📲
-              </a>
-              on Telegram.
-            </h3>
-          </div>
+        {/* PROJECTS */}
+        <section id="project-section" className="snap-center">
+          <Projects />
         </section>
-      </main>
+
+        {/* CONTACT ME  */}
+        <section id="contactMe" className="snap-center">
+          <Contact />
+        </section>
+      </div>
     </div>
   );
+}
+
+{
+  /* <ul className="m-0">
+            <li>
+              <CgDarkMode
+                onClick={() => setDarkMode(!darkMode)}
+                className=" dark:text-white cursor-pointer text-2xl mr-6 h-4 w-4"
+              />
+            </li>
+          </ul> */
 }
