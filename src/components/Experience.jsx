@@ -2,9 +2,9 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="h-screen">
-      <h1 className=" font-poppins px-7 text-2xl mb-6 text-stone-300 mt-10">
-        <span className="text-cyan-500">02.</span> Places I've Worked!
+    <div className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center">
+      <h1 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        &lt;Places I've Worked! /&gt;
       </h1>
       <div
         id="heh"

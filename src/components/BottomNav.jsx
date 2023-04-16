@@ -25,27 +25,27 @@ const Nav = () => {
     >
       <a
         href="#projectSection"
-        className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
+        className="bg-none p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
       >
-        <AiFillGithub className="text-cyan-500" />
+        <AiFillGithub className="hover:text-black" />
       </a>
       <a
         href="https://www.linkedin.com/in/remel-s-crowe/"
         className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
       >
-        <AiFillLinkedin className="text-cyan-500" />
+        <AiFillLinkedin className="hover:text-blue-600" />
       </a>
       <a
         href="https://twitter.com/r5crw"
-        className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
+        className="bg-transparent p-1 rounded-full hover:-translate-y-1 hover:shadow-md"
       >
-        <AiFillTwitterCircle className="text-cyan-500" />
+        <AiFillTwitterCircle className="hover:text-cyan-500" />
       </a>
       <a
         href="#"
         className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
       >
-        <BsDiscord className="text-cyan-500" />
+        <BsDiscord className="hover:text-purple-800" />
       </a>
     </nav>
   );

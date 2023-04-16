@@ -18,15 +18,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white px-10 h-screen snap-y snap-mandatory overflow-scroll z-0">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
         {/* LANDING PAGE */}
-        <section id="hero" className="snap-center">
+        <section id="hero" className="snap-center px-10">
           <Hero />
-          <Nav />
         </section>
 
         {/* ABOUT ME */}
-        <section id="about-section" className="snap-center">
+        <section id="about-section" className="snap-center px-10">
           <About />
         </section>
 
@@ -44,6 +43,7 @@ export default function Home() {
         <section id="contactMe" className="snap-center">
           <Contact />
         </section>
+        <Nav />
       </div>
     </div>
   );
