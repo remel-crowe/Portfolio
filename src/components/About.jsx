@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaReact } from "react-icons/Fa";
-import { DiJavascript, DiCss3 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
 
 function About() {
   return (
@@ -28,7 +25,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-          className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+          className=" mt-10 -mb-15 md:mb-0 flex-shrink-0 w-60 h-70 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         ></motion.img>
         <div className="space-y-10 px-0 md:px-10">
           <h4 className="text-4xl">
@@ -55,30 +52,6 @@ function About() {
           </p>
         </div>
       </motion.div>
-      <motion.div
-        initial={{
-          y: 500,
-          opacity: 0,
-          scale: 0.5,
-        }}
-        animate={{
-          y: -200,
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{
-          duration: 1.5,
-        }}
-        className="flex justify-center"
-      >
-        <div className="flex items-center gap-5">
-          <FaReact className="text-cyan-500 w-7 h-7" />
-          <DiJavascript className="text-yellow-500 w-7 h-7" />
-          <DiCss3 className="text-orange-500 w-7 h-7" />
-          <SiTailwindcss className="text-cyan-400 w-7 h-7" />
-        </div>
-      </motion.div>
-      ;
     </>
   );
 }

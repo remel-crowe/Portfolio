@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import pic from "../assets/travel-ecommerce-app-mockup.png";
 
 function Projects() {
   const projects = [1, 2, 3, 4, 5];
@@ -11,7 +12,7 @@ function Projects() {
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projects.map((project) => (
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <img src="/public/consulting.png" alt="" />
+            <img src={pic} alt="project" />
             <div>
               <h4>Project 1 of 3 : Clone</h4>
               <p>some shit about the project</p>
