@@ -1,5 +1,6 @@
 import React from "react";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard1 from "./experience/ExperienceCard1";
+import ExperienceCard2 from "./experience/ExperienceCard2";
 
 function Experience() {
   return (
@@ -8,9 +9,8 @@ function Experience() {
         Experience
       </h1>
       <div className="w-full flex space-x-20 p-10 overflow-x-scroll snap-x snap-mandatory snap-center">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <ExperienceCard1 />
+        <ExperienceCard2 />
       </div>
     </div>
   );

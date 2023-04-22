@@ -12,7 +12,7 @@ function About() {
         className="h-screen flex flex-col relative text-center max-w-7xl px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-          &lt;About / &gt;
+          About
         </h3>
         <motion.img
           initial={{

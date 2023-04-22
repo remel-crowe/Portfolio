@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -9,6 +9,9 @@ import {
 import { BsDiscord } from "react-icons/bs";
 
 const Nav = () => {
+  function showDiscord() {
+    alert("CRW#8116");
+  }
   return (
     <nav
       className="
@@ -44,6 +47,7 @@ const Nav = () => {
       <a
         href="#"
         className="bg-transparent p-1 rounded-full  hover:-translate-y-1 hover:shadow-md"
+        onClick={showDiscord}
       >
         <BsDiscord className="hover:text-purple-800" />
       </a>

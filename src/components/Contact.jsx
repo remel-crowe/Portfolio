@@ -6,7 +6,7 @@ function Contact() {
     <>
       <div className="h-screen flex flex-col relative text-center max-w-7xl px-18 justify-evenly mx-auto items-center md:text-left md:flex-row">
         <h1 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-          &lt;Thanks /&gt;
+          Thanks
         </h1>
         <div>
           <h4>

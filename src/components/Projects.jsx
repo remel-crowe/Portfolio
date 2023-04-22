@@ -14,14 +14,13 @@ function Projects() {
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
             <img src={pic} alt="project" />
             <div>
-              <h4>Project 1 of 3 : Clone</h4>
+              <h4>
+                Project {project} of {projects.length} : Telegram Crypto Bot
+              </h4>
               <p>some shit about the project</p>
             </div>
           </div>
         ))}
-        {/* Projects */}
-        {/* Projects */}
-        {/* Projects */}
       </div>
 
       <div className="w-full absolute top-[30%] bg-[#797371]/10 left-0 h-[500px] -skew-y-12"></div>
