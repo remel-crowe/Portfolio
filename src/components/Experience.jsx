@@ -8,7 +8,7 @@ function Experience() {
       <h1 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
       </h1>
-      <div className="w-full flex space-x-20 p-10 overflow-x-scroll snap-x snap-mandatory snap-center">
+      <div className="w-full flex space-x-20 px-10 mt-12 overflow-x-scroll scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-yellow-400">
         <ExperienceCard1 />
         <ExperienceCard2 />
       </div>

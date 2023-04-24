@@ -29,7 +29,10 @@ function About() {
         ></motion.img>
         <div className="space-y-10 px-0 md:px-10">
           <h4 className="text-4xl">
-            Heres a <span className="text-xl underline">little</span>{" "}
+            Heres a{" "}
+            <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
+              little
+            </span>{" "}
             Introduction
           </h4>
           <p className="font-poppins text-md text-stone-300 ">
@@ -44,9 +47,16 @@ function About() {
             atleast a wannabe 😁
           </p>
           <p className="font-poppins text-md text-stone-300 ">
-            Since then I've managed to create a few projects - including this
-            webpage! Check them out{" "}
-            <a href="#" className="animate-pulse">
+            Since then I've managed to start a{" "}
+            <a
+              href="http://instagram.com/repairshack"
+              className="text-cyan-400 hover:underline"
+            >
+              business
+            </a>
+            , become more obsessed with crypto and create a few projects -
+            including this webpage! Check them out&nbsp;
+            <a href="#project-section" className="animate-pulse">
               below!
             </a>
           </p>

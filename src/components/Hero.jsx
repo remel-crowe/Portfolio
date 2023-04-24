@@ -20,14 +20,14 @@ function Hero() {
         whileInView={{ x: 0 }}
         className=" absolute top-0 py-10 mb-12"
       >
-        <h1 className="text-xl font-raleway text-white">remcrw.dev</h1>
+        <h1 className="text-xl font-raleway text-yellow-400">remcrw</h1>
       </motion.nav>
       <div className="flex flex-col space-y-8 items-center justify-center text-center ">
         <BackgroundCircles />
         <h1 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-white z-1">
           Remel Straker - Crowe
         </h1>
-        <h3 className=" text-cyan-500 text-xl font-poppins">
+        <h3 className=" text-yellow-400 text-xl font-poppins">
           <span className="">{text}</span>
           <Cursor cursorColor="#F7AB8A" />
         </h3>
@@ -55,6 +55,13 @@ function Hero() {
           <SiTailwindcss className="text-cyan-400 w-7 h-7" />
         </div>
       </motion.div>
+      <motion.img
+        src="https://i.ibb.co/VpjGXsS/20230424-192023000-i-OS-removebg-preview.png"
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 2.5 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        className="absolute -bottom-[170px] -right-10 w-[300px]"
+      ></motion.img>
     </div>
   );
 }
