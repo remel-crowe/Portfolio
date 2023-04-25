@@ -48,10 +48,10 @@ function Hero() {
         }}
         className="flex justify-center"
       >
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 ">
           <FaReact className="text-cyan-500 w-7 h-7" />
           <DiJavascript className="text-yellow-500 w-7 h-7" />
-          <DiCss3 className="text-orange-500 w-7 h-7" />
+          <DiCss3 className="text-orange-500 w-7 h-7 z-20" />
           <SiTailwindcss className="text-cyan-400 w-7 h-7" />
         </div>
       </motion.div>
@@ -60,7 +60,7 @@ function Hero() {
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 2.5 }}
         whileInView={{ opacity: 1, x: 0 }}
-        className="absolute -bottom-[170px] -right-10 w-[300px]"
+        className="hidden absolute md:block md:-bottom-[170px] md:-right-10 md:w-[300px] "
       ></motion.img>
     </div>
   );

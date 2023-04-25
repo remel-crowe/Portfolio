@@ -11,7 +11,7 @@ function About() {
         transition={{ duration: 1.5 }}
         className="h-screen flex flex-col relative text-center max-w-7xl px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        <h3 className="absolute uppercase top-10 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
           About
         </h3>
         <motion.img
@@ -25,9 +25,9 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-          className=" mt-10 -mb-15 md:mb-0 flex-shrink-0 w-60 h-70 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+          className=" w-40 h-40 mt-[300px] md:mt-[200px] md:-mb-15  flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         ></motion.img>
-        <div className="space-y-10 px-0 md:px-10">
+        <div className="space-y-6 md:space-y-10 px-0 md:px-10 mb-[100px]">
           <h4 className="text-4xl">
             Heres a{" "}
             <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">

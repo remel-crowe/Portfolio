@@ -16,29 +16,32 @@ export default function Home() {
         <title>Remel Crowe 💻</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar ">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory md:snap-y md:snap-mandatory overflow-y-scroll z-0 scrollbar gap-y-5 overflow-x-hidden ">
         {/* LANDING PAGE */}
-        <section id="hero" className="snap-center px-10">
+        <section
+          id="hero"
+          className="md:snap-center px-10 h-screen mb-[100px] md:mb-0 lg:mb-0"
+        >
           <Hero />
         </section>
 
         {/* ABOUT ME */}
-        <section id="about-section" className="snap-center px-10">
+        <section id="about-section" className="md:snap-center px-10 h-full">
           <About />
         </section>
 
         {/* Experience */}
-        <section id="experience-section" className="snap-center">
+        <section id="experience-section" className="md:snap-center">
           <Experience />
         </section>
 
         {/* PROJECTS */}
-        <section id="project-section" className="snap-center">
+        <section id="project-section" className="md:snap-center">
           <Projects />
         </section>
 
         {/* CONTACT ME  */}
-        <section id="contactMe" className="snap-center">
+        <section id="contactMe" className="md:snap-center">
           <Contact />
         </section>
         <Nav />
