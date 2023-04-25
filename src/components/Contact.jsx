@@ -8,15 +8,15 @@ function Contact() {
         <h1 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           Thanks
         </h1>
-        <div>
-          <h3 className="text-2xl">
+        <div className="space-y-4">
+          <h3 className="text-3xl">
             Unfortunately, this is the end of my portfolio{" "}
           </h3>
-          <h4 className="text-2xl">
+          <h4 className="text-3xl">
             Or the start of something new 🙌 - Lets have a{" "}
             <span className="">chat!</span>
           </h4>
-          <h3 className="text-2xl">
+          <h3 className="text-3xl">
             I'm looking to join a team of developers who can assist me in
             developing my skillset and take me to the next level. If you feel I
             may be a good fit for your team, let me know via&nbsp;
