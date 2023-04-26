@@ -25,9 +25,9 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-          className=" w-40 h-40 mt-[300px] md:mt-[200px] md:-mb-15  flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+          className=" w-40 h-40 mt-[250px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
         ></motion.img>
-        <div className="space-y-6 md:space-y-10 px-0 md:px-10 mb-[100px]">
+        <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20">
           <h4 className="text-4xl">
             Heres a{" "}
             <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">

@@ -16,32 +16,29 @@ export default function Home() {
         <title>Remel Crowe 💻</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory md:snap-y md:snap-mandatory overflow-y-scroll z-0 scrollbar gap-y-5 overflow-x-hidden ">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory md:snap-y md:snap-mandatory overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden ">
         {/* LANDING PAGE */}
-        <section
-          id="hero"
-          className="md:snap-center px-10 h-screen mb-[100px] md:mb-0 lg:mb-0"
-        >
+        <section className="md:snap-center px-10 h-screen md:mb-0 lg:mb-0">
           <Hero />
         </section>
 
         {/* ABOUT ME */}
-        <section id="about-section" className="md:snap-center px-10 h-full">
+        <section id="about-section" className="md:snap-center px-10 h-screen">
           <About />
         </section>
 
         {/* Experience */}
-        <section id="experience-section" className="md:snap-center">
+        <section id="experience-section" className="md:snap-center h-screen">
           <Experience />
         </section>
 
         {/* PROJECTS */}
-        <section id="project-section" className="md:snap-center">
+        <section id="project-section" className="md:snap-center h-screen">
           <Projects />
         </section>
 
         {/* CONTACT ME  */}
-        <section id="contactMe" className="md:snap-center">
+        <section id="contactMe" className="md:snap-center h-screen">
           <Contact />
         </section>
         <Nav />
