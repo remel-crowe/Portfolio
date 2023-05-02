@@ -2,39 +2,65 @@ import React from "react";
 import Image from "next/image";
 
 function Projects() {
-  const projects = [1, 2, 3];
-  return (
-    <div className=" scrollbar scrollbar-track-gray-500 scrollbar-thumb-yellow-400 scrollbar-thin h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-18 justify-evenly mx-auto items-center z-0">
-      <h3 className=" absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        &lt; Projects /&gt;
-      </h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden z-20">
-        {projects.map((project) => (
-          <div className="w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <img
-              src="https://i.ibb.co/R71Wwfn/travel-ecommerce-app-mockup.png"
-              alt="project"
-              className="rounded-lg w-[100px] h-[100px]"
-            />
-            <div>
-              <h4>
-                Project {project} of {projects.length} : Telegram Crypto Bot
-              </h4>
-              <p>some shit about the project</p>
-            </div>
-          </div>
-        ))}
-      </div>
+  const projects = [
+    {
+      id: 1,
+      title: "Project 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      imageSrc: "/src/assets/project1-image.png", // Replace with the actual image URL
+    },
+    {
+      id: 2,
+      title: "Project 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      imageSrc: "/src/assets/project2-image.png", // Replace with the actual image URL
+    },
+    {
+      id: 3,
+      title: "Project 3",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      imageSrc: "/src/assets/project3-image.png", // Replace with the actual image URL
+    },
+    {
+      id: 4,
+      title: "Project 4",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      imageSrc: "/src/assets/project4-image.png", // Replace with the actual image URL
+    },
+  ];
 
-      <div className="w-screen absolute top-[30%] bg-[#797371]/10  h-[500px] -skew-y-12"></div>
-      <div className="absolute w-[250px] h-[250px] bottom-[150px] -left-[200px]">
-        <img
-          src="https://i.ibb.co/VpjGXsS/20230424-192023000-i-OS-removebg-preview.png"
-          alt="20230424-192023000-i-OS-removebg-preview"
-          className="hidden"
-        ></img>
+  return (
+    <section className="bg-gray-100 py-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-4 text-center">
+          Some Things I've Built
+        </h2>
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project) => (
+            <div
+              key={project.id}
+              className="bg-white overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <div className="relative aspect-w-16 aspect-h-9">
+                <Image
+                  src={project.imageSrc}
+                  alt={project.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-t-lg"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-700">{project.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

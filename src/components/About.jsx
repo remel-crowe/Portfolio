@@ -9,9 +9,9 @@ function About() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-screen flex flex-col relative text-center max-w-7xl px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
+        className="min-h-screen flex flex-col relative text-center max-w-7xl px-6 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
-        <h3 className="absolute uppercase top-10 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
+        <h3 className="absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
           About
         </h3>
         <motion.img
@@ -25,36 +25,36 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-          className=" w-40 h-40 mt-[300px] md:mt-[200px] md:-mb-15  flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px] mt-8 md:mt-0 flex-shrink-0 rounded-full object-cover md:rounded-lg"
         ></motion.img>
-        <div className="space-y-6 md:space-y-10 px-0 md:px-10 mb-[100px]">
-          <h4 className="text-4xl">
-            Heres a{" "}
-            <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
+        <div className="space-y-6 md:space-y-10 px-4 md:px-10 mt-8 md:mt-0">
+          <h4 className="text-2xl md:text-4xl">
+            Here's a{" "}
+            <span className="text-xl md:text-2xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
               little
             </span>{" "}
             Introduction
           </h4>
-          <p className="font-poppins text-md text-stone-300 ">
-            Hi visitor👋, my name is Remel and im an aspiring frontend engineer
-            with a strong interest in developing online presences, wether it be
+          <p className="font-poppins text-sm md:text-md text-slate-200 ">
+            Hi visitor👋, my name is Remel and I'm an aspiring frontend engineer
+            with a strong interest in developing online presences, whether it be
             through SEO, Content Creation or a mixture of both.
           </p>
-          <p className="font-poppins text-md text-stone-300 ">
+          <p className="font-poppins text-sm md:text-md text-slate-200 ">
             My interest in web development sparked while in an IT position
             within the Google offices. Being surrounded by hundreds of software
-            developers 5 days a week has it's way of turning you into one.. Or
-            atleast a wannabe 😁
+            developers 5 days a week has its way of turning you into one... Or
+            at least a wannabe 😁
           </p>
-          <p className="font-poppins text-md text-stone-300 ">
-            Since then I've managed to start a{" "}
+          <p className="font-poppins text-sm md:text-md text-slate-200 ">
+            Since then, I've managed to start a{" "}
             <a
               href="http://instagram.com/repairshack"
               className="text-cyan-400 hover:underline"
             >
               business
             </a>
-            , become more obsessed with crypto and create a few projects -
+            , become more obsessed with crypto, and create a few projects —
             including this webpage! Check them out&nbsp;
             <a href="#project-section" className="animate-pulse">
               below!
