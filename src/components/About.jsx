@@ -25,12 +25,21 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
+<<<<<<< HEAD
           className="w-[250px] h-[250px] md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px] mt-8 md:mt-0 flex-shrink-0 rounded-full object-cover md:rounded-lg"
         ></motion.img>
         <div className="space-y-6 md:space-y-10 px-4 md:px-10 mt-8 md:mt-0">
           <h4 className="text-2xl md:text-4xl">
             Here's a{" "}
             <span className="text-xl md:text-2xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
+=======
+          className=" w-40 h-40 mt-[250px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
+        ></motion.img>
+        <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20">
+          <h4 className="text-4xl">
+            Heres a{" "}
+            <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
+>>>>>>> 819a0d7414dc255f65e82b5be71e68472013eaf9
               little
             </span>{" "}
             Introduction
