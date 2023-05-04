@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact } from "react-icons/Fa";
+import { FaReact } from "react-icons/fa";
 import { DiJavascript, DiCss3 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
