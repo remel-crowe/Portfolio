@@ -9,8 +9,8 @@ function Experience() {
         Experience
       </h1>
       <div className="w-full mt-12 md:mt-24 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 md:overflow-x-auto">
-        <ExperienceCard1 />
         <ExperienceCard2 />
+        <ExperienceCard1 />
       </div>
     </div>
   );

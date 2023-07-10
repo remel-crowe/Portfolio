@@ -10,10 +10,10 @@ function Contact() {
         </h1>
         <div className="space-y-4 px-2 md:px-10 text-center mt-6 md:mt-0">
           <h3 className="text-lg md:text-3xl">
-            Unfortunately, this is the end of my portfolio{" "}
+            Unfortunately, this is the end of my portfolio
           </h3>
           <h4 className="text-md md:text-xl">
-            Or the start of something new 🙌 - Let's have a{" "}
+            Or the start of something new 🙌 - Let&#39;s have a&nbsp;
             <span className="text-lg">chat!</span>
           </h4>
           <h3 className="text-md md:text-xl">

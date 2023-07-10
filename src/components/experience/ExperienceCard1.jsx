@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact } from "react-icons/fa";
+import { SiSap, SiGooglemeet } from "react-icons/si";
+import { FcLinux } from "react-icons/fc";
+import { IoTicketSharp } from "react-icons/io";
 
 function ExperienceCard() {
   return (
@@ -23,12 +25,12 @@ function ExperienceCard() {
           Google - Contracted by Astreya Partners
         </p>
         <div className="flex space-x-1 md:space-x-2 my-2">
-          <FaReact className="h-4 md:h-10 rounded-full" />
-          <FaReact className="h-4 md:h-10 rounded-full" />
-          <FaReact className="h-4 md:h-10 rounded-full" />
+          <SiSap className="h-5 md:h-10 md:w-7 rounded-full text-blue-400" />
+          <FcLinux className="h-5 md:h-10 md:w-7 rounded-full" />
+          <SiGooglemeet className="h-5 md:h-10 md:w-7 rounded-full" />
         </div>
         <p className="uppercase py-1 md:py-5 text-white text-sm md:text-lg">
-          07/21 - 10/22
+          July 2021 - October 2022
         </p>
         <ul className="list-disc space-y-1 md:space-y-4 ml-2 md:ml-5 text-sm md:text-lg">
           <li>SAP</li>
