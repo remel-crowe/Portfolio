@@ -19,12 +19,12 @@ function Contact() {
           <h3 className="text-md md:text-xl">
             I'm looking to join a team of developers who can assist me in
             developing my skillset and take me to the next level. If you feel I
-            may be a good fit for your team, let me know via&nbsp;
+            may be a good fit for your team, let me know via<br></br>
             <a
               className="hover:text-cyan-500 transition duration-300"
               href="mailto:remelscrowe@gmail.com"
             >
-              email 📧,
+              Email 📧&nbsp;
             </a>
             or drop me a&nbsp;
             <a

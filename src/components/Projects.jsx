@@ -81,11 +81,18 @@ function Projects() {
               <li>Vercel</li>
             </ul>
             <div className="inline-flex  space-x-3 mt-4 relative left-[420px] top-7 ">
-              <a href="#" className="text-gray-100">
+              <a
+                href="https://github.com/remel-crowe/Portfolio"
+                className="text-gray-100"
+                target="_blank"
+              >
                 <AiFillGithub className="w-6 h-6" />
               </a>
               <a href="#" className="text-gray-100">
-                <VscLinkExternal className="w-5 h-6" />
+                <VscLinkExternal
+                  className="w-5 h-6"
+                  title="This shoudln't work and it doesn't :)"
+                />
               </a>
             </div>
           </div>
@@ -93,8 +100,8 @@ function Projects() {
         <li className=" scrolling-item flex items-center justify-center w-full relative snap-center mx-auto">
           <div className="project-image z-0 w-[350px] h-[300px] -mr-[150px] relative">
             <img
-              src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-              alt="Crypto bot"
+              src="https://i.ibb.co/ncQwStc/60dbee6106e855720aa3e286-Twitter-Feed-Clone.png"
+              alt="Twitter Clone Showcase"
               className="object-cover w-full h-full"
             />
             <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-90 transition-opacity duration-300 hover:opacity-0"></div>
@@ -109,17 +116,18 @@ function Projects() {
             </h3>
             <div className="project-description mt-4 bg-gray-900 bg-opacity-80 text-gray-200 p-4 shadow-lg ">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis omnis animi impedit eum. Quia itaque omnis, culpa
-                voluptates saepe nostrum consectetur, inventore aliquam eaque
-                fuga totam! In minus doloribus consectetur?
+                Is that Twitter?! Yes... but not quite. This is a functional
+                clone of the Twitter webapp, designed using Canva and brought to
+                life using HTML, CSS and JS. This early project helped to
+                develop my understanding of Grid and Flexboxes and was a great
+                way for me to understand how a layered design works.
               </p>
             </div>
             <ul className="absolute project-tech-list inline-flex mt-4 space-x-4 text-gray-200 font-poppins text-sm right-10">
-              <li>React</li>
-              <li>Tailwind</li>
-              <li>npm</li>
-              <li>Vercel</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Figma</li>
+              <li>Adobe Illustrator</li>
             </ul>
             <div className="inline-flex  space-x-3 mt-4 relative left-[420px] top-7 ">
               <a href="#" className="text-gray-100">
