@@ -5,7 +5,7 @@ import { VscLinkExternal } from "react-icons/Vsc";
 function Projects() {
   return (
     <div className="flex flex-col items-center relative md:mb-10">
-      <h1 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-lg md:text-2xl">
+      <h1 className="absolute top-24 mt-12 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-lg md:text-2xl">
         Projects
       </h1>
       <ul className="scrolling-container relative top-[300px] flex overflow-x-scroll space-x-[1000px] w-full snap-x snap-mandatory">
@@ -67,12 +67,7 @@ function Projects() {
               </a>
             </h3>
             <div className="project-description mt-4 bg-gray-900 bg-opacity-80 text-gray-200 p-4 shadow-lg ">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis omnis animi impedit eum. Quia itaque omnis, culpa
-                voluptates saepe nostrum consectetur, inventore aliquam eaque
-                fuga totam! In minus doloribus consectetur?
-              </p>
+              <p></p>
             </div>
             <ul className="absolute project-tech-list inline-flex mt-4 space-x-4 text-gray-200 font-poppins text-sm right-10">
               <li>React</li>

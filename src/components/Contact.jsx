@@ -8,7 +8,7 @@ function Contact() {
         <h1 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-lg md:text-2xl">
           Thanks
         </h1>
-        <div className="space-y-4 px-2 md:px-10 text-center mt-6 md:mt-0">
+        <div className="space-y-4 px-2 md:px-10 text-center mt-12 md:mt-0">
           <h3 className="text-lg md:text-3xl">
             Unfortunately, this is the end of my portfolio
           </h3>

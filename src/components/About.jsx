@@ -11,7 +11,7 @@ function About() {
         transition={{ duration: 1.5 }}
         className="min-h-screen flex flex-col relative text-center max-w-7xl px-6 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
-        <h3 className="absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
+        <h3 className=" absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
           About
         </h3>
         <motion.img
@@ -25,7 +25,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
           src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-          className=" w-40 h-40 mt-[250px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
+          className=" w-40 h-40 mt-[70px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
         ></motion.img>
         <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20">
           <h4 className="text-4xl">
@@ -36,8 +36,8 @@ function About() {
             Introduction
           </h4>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
-            Hi visitor👋, my name is Remel and I'm an aspiring frontend engineer
-            with a strong interest in developing online presences, whether it be
+            Hi visitor👋, my name is Remel and I'm a frontend engineer with a
+            strong interest in developing online presences, whether it be
             through SEO, Content Creation or a mixture of both.
           </p>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
@@ -51,6 +51,7 @@ function About() {
             <a
               href="http://instagram.com/repairshack"
               className="text-cyan-400 hover:underline"
+              target="_blank"
             >
               business
             </a>
