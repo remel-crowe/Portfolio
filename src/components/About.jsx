@@ -55,9 +55,20 @@ function About() {
             >
               business
             </a>
-            , become more obsessed with crypto, and create a few projects —
-            including this webpage! Check them out&nbsp;
-            <a href="#project-section" className="animate-pulse">
+            , become more obsessed with crypto, travel to a few new{" "}
+            <a
+              href="http://instagram.com/remdezvouss"
+              className="text-green-400 hover:underline"
+              target="_blank"
+            >
+              countries
+            </a>{" "}
+            and create a few projects — including this webpage! Check them
+            out&nbsp;
+            <a
+              href="#project-section"
+              className="animate-pulse text-yellow-400"
+            >
               below!
             </a>
           </p>

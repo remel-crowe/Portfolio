@@ -24,7 +24,7 @@ function ExperienceCard() {
       variants={cardVariants}
       initial="initial"
       animate="animate"
-      className="flex flex-col rounded-lg items-center space-y-4 md:items-left flex-shrink-0 w-full max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden"
+      className="flex flex-col rounded-lg items-center space-y-4 md:items-left flex-shrink-0 w-full max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden md:snap-center"
     >
       <img
         className="h-24 w-24 md:h-32 md:w-32 object-center mx-auto rounded-full"

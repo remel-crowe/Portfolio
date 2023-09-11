@@ -1,14 +1,41 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { VscLinkExternal } from "react-icons/Vsc";
+import { useState, useEffect } from "react";
+import logo from "../assets/mockup.jpg";
 
 function Projects() {
+  const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+
+  // Function to handle scroll and update the current project index
+  const handleScroll = () => {
+    const container = document.querySelector(".scrolling-container");
+    if (container) {
+      const scrollPosition = container.scrollLeft;
+      const projectWidth = container.clientWidth; // Width of each project card
+      const newIndex = Math.round(scrollPosition / projectWidth);
+      setCurrentProjectIndex(newIndex);
+    }
+  };
+
+  // Add a scroll event listener to track scroll position
+  useEffect(() => {
+    const container = document.querySelector(".scrolling-container");
+    if (container) {
+      container.addEventListener("scroll", handleScroll);
+    }
+    return () => {
+      if (container) {
+        container.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
   return (
     <div className="flex flex-col items-center relative md:mb-10">
       <h1 className="absolute top-24 mt-12 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-lg md:text-2xl">
         Projects
       </h1>
-      <ul className="scrolling-container relative top-[300px] flex overflow-x-scroll space-x-[1000px] w-full snap-x snap-mandatory">
+      <ul className="scrolling-container relative top-[300px] flex items-center overflow-x-scroll gap-x-[1000px] w-full snap-x snap-mandatory ">
         <li className="scrolling-item flex items-center snap-center">
           <div className="project-content z-10 w-[550px] h-[350px] p-8 rounded-lg ">
             <p className="text-yellow-400">Featured Project</p>
@@ -46,17 +73,17 @@ function Projects() {
               alt="Crypto bot"
               className="object-cover w-full h-full object-fill rounded-sm"
             />
-            <div className="absolute inset-0 bg-gray-500 opacity-90 transition-opacity duration-300 hover:opacity-0 rounded-md"></div>
+            <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-30 transition-opacity duration-300 hover:opacity-0"></div>
           </div>
         </li>
         <li className="scrolling-item flex items-center relative snap-center mx-auto">
           <div className="project-image z-0 w-[350px] h-[300px] -mr-[150px] relative">
             <img
-              src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
-              alt="Crypto bot"
-              className="object-cover w-full h-full"
+              src="https://i.ibb.co/zFKBsXF/mockup.png"
+              alt="This Portfolio"
+              className="w-full h-full"
             />
-            <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-90 transition-opacity duration-300 hover:opacity-0"></div>
+            <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-30 transition-opacity duration-300 hover:opacity-0"></div>
           </div>
 
           <div className="project-content z-10 w-[550px] h-[350px] p-8 rounded-lg ">
@@ -99,7 +126,7 @@ function Projects() {
               alt="Twitter Clone Showcase"
               className="object-cover w-full h-full"
             />
-            <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-90 transition-opacity duration-300 hover:opacity-0"></div>
+            <div className=" cursor-pointer absolute w-[350px] h-[300px] inset-0 bg-gray-700 opacity-30 transition-opacity duration-300 hover:opacity-0"></div>
           </div>
 
           <div className="project-content z-10 w-[550px] h-[350px] p-8 rounded-lg ">
@@ -135,6 +162,16 @@ function Projects() {
           </div>
         </li>
       </ul>
+      <div className="flex relative top-[350px]">
+        {[0, 1, 2].map((index) => (
+          <div
+            key={index}
+            className={`w-3 h-3 rounded-full ${
+              index === currentProjectIndex ? "bg-yellow-400" : "bg-gray-400"
+            } mr-2`}
+          ></div>
+        ))}
+      </div>
     </div>
   );
 }
