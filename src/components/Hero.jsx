@@ -8,7 +8,11 @@ import BackgroundCircles from "./BackgroundCircles";
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["Web Developer", "Guy-who-loves-the-gym.jsx", "Pronounced: Rem-el"],
+    words: [
+      "Pronounced: Rem-el",
+      "Web Developer",
+      "Guy-who-loves-travelling.jsx",
+    ],
     loop: true,
     delaySpeed: 1500,
   });
