@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact } from "react-icons/fa";
-import { DiJavascript, DiCss3 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
+import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import { DiCss3 } from "react-icons/di";
+import { SiTailwindcss, SiJavascript, SiSass } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
@@ -54,9 +54,12 @@ function Hero() {
       >
         <div className="flex items-center gap-5 ">
           <FaReact className="text-cyan-500 w-7 h-7" />
-          <DiJavascript className="text-yellow-500 w-7 h-7" />
-          <DiCss3 className="text-orange-500 w-7 h-7 z-20" />
+          <SiJavascript className="text-yellow-500 w-6 h-6" />
+          <DiCss3 className="text-blue-700 w-7 h-7 z-20" />
+          <SiSass className="text-pink-800 bg-white w-7 h-7 rounded-full border-none" />
           <SiTailwindcss className="text-cyan-400 w-7 h-7" />
+          <FaNodeJs className="text-green-600 w-6 h-7" />
+          <FaPython className="w-7 h-7" />
         </div>
       </motion.div>
       <motion.img

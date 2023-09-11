@@ -16,7 +16,7 @@ export default function Home() {
         <title>Remel Crowe 💻</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory md:snap-y md:snap-mandatory overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden ">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden ">
         {/* LANDING PAGE */}
         <section className="md:snap-center px-10 h-screen md:mb-0 lg:mb-0">
           <Hero />
