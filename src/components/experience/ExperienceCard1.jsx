@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { SiSap, SiGooglemeet } from "react-icons/si";
 import { FcLinux } from "react-icons/fc";
-import { IoTicketSharp } from "react-icons/io";
 
 function ExperienceCard() {
   const cardVariants = {

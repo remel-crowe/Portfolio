@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 function About() {
   return (
@@ -37,8 +36,9 @@ function About() {
           </h4>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
             Hi visitor👋, my name is Remel and I'm a frontend engineer with a
-            strong interest in developing online presences, whether it be
-            through SEO, Content Creation or a mixture of both.
+            strong interest in developing engaging and meaningful online
+            experiences, whether it be through SEO, Content Creation or a
+            mixture of both.
           </p>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
             My interest in web development sparked while in an IT position

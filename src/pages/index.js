@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import Nav from "@/components/BottomNav";
-import { CgDarkMode, CgHashtag } from "react-icons/cg";
-import Projects from "@/components/Projects";
+import ProjectsSection from "@/components/ProjectSec";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
@@ -16,29 +15,32 @@ export default function Home() {
         <title>Remel Crowe 💻</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden ">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden snap-y snap-mandatory scroll-smooth ">
         {/* LANDING PAGE */}
-        <section className="md:snap-center px-10 h-screen md:mb-0 lg:mb-0">
+        <section className="snap-center px-10 h-screen md:mb-0 lg:mb-0">
           <Hero />
         </section>
 
         {/* ABOUT ME */}
-        <section id="about-section" className="md:snap-center px-10 h-screen">
+        <section id="about-section" className="snap-center px-10 h-screen">
           <About />
         </section>
 
         {/* Experience */}
-        <section id="experience-section" className="md:snap-center h-screen">
+        <section id="experience-section" className="snap-center h-screen">
           <Experience />
         </section>
 
         {/* PROJECTS */}
-        <section id="project-section" className="md:snap-center h-screen">
-          <Projects />
+        <section
+          id="project-section"
+          className="snap-center h-screen px-10 pt-10 overflow-y-scroll"
+        >
+          <ProjectsSection />
         </section>
 
         {/* CONTACT ME  */}
-        <section id="contactMe" className="md:snap-center h-screen">
+        <section id="contactMe" className="snap-center h-screen">
           <Contact />
         </section>
         <Nav />

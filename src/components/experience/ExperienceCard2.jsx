@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaPython, FaApple } from "react-icons/fa";
-import { VscFileSubmodule } from "react-icons/vsc";
+import { VscFileSubmodule } from "react-icons/Vsc";
 
 function ExperienceCard() {
   const cardVariants = {
