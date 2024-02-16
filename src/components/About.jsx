@@ -23,7 +23,7 @@ function About() {
           }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
-          src="https://i.ibb.co/nzbSNjf/IMG-3125.jpg"
+          src="https://i.ibb.co/F6bW78t/IMG-0897.jpg"
           className=" w-40 h-40 mt-[70px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
         ></motion.img>
         <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20">
@@ -35,8 +35,8 @@ function About() {
             Introduction
           </h4>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
-            Hi visitor👋, my name is Remel and I'm a frontend engineer with a
-            strong interest in developing engaging and meaningful online
+            Hi visitor👋, my name is Remel and I&apos;m a frontend engineer with
+            a strong interest in developing engaging and meaningful online
             experiences, whether it be through SEO, Content Creation or a
             mixture of both.
           </p>
@@ -47,7 +47,7 @@ function About() {
             at least a wannabe 😁
           </p>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
-            Since then, I've managed to start a{" "}
+            Since then, I&apos;ve managed to start a{" "}
             <a
               href="http://instagram.com/repairshack"
               className="text-cyan-400 hover:underline"
@@ -57,7 +57,7 @@ function About() {
             </a>
             , become more obsessed with crypto, travel to a few new{" "}
             <a
-              href="http://instagram.com/remdezvouss"
+              href="http://polarsteps.com/Remelcrowe"
               className="text-green-400 hover:underline"
               target="_blank"
             >
