@@ -1,7 +1,6 @@
 import React from "react";
 import ExperienceCard1 from "./experience/ExperienceCard1";
 import ExperienceCard2 from "./experience/ExperienceCard2";
-import Circles from "./circles";
 
 function Experience() {
   return (

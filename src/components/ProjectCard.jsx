@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { VscLinkExternal } from "react-icons/Vsc";
+import { VscLinkExternal } from "react-icons/vsc";
 import Link from "next/link";
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
