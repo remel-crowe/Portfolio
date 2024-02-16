@@ -13,7 +13,7 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Remel Crowe 💻</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden snap-y snap-mandatory scroll-smooth ">
         {/* LANDING PAGE */}
@@ -47,15 +47,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
-
-{
-  /* <ul className="m-0">
-            <li>
-              <CgDarkMode
-                onClick={() => setDarkMode(!darkMode)}
-                className=" dark:text-white cursor-pointer text-2xl mr-6 h-4 w-4"
-              />
-            </li>
-          </ul> */
 }
