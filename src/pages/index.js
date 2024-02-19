@@ -12,39 +12,49 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Remel Crowe 💻</title>
+        <title>Remel Crowe 💻 | Front End Developer & SEO Expert</title>
+        <meta
+          name="description"
+          content="London based front end developer and SEO Expert."
+        />
+
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden snap-y snap-mandatory scroll-smooth ">
-        {/* LANDING PAGE */}
-        <section className="snap-center px-10 h-screen md:mb-0 lg:mb-0">
-          <Hero />
-        </section>
+      <body>
+        <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden snap-y snap-mandatory scroll-smooth ">
+          {/* LANDING PAGE */}
+          <section
+            id="hero-section"
+            className="snap-center px-10 h-screen md:mb-0 lg:mb-0"
+          >
+            <Hero />
+          </section>
 
-        {/* ABOUT ME */}
-        <section id="about-section" className="snap-center px-10 h-screen">
-          <About />
-        </section>
+          {/* ABOUT ME */}
+          <section id="about-section" className="snap-center px-10 h-screen">
+            <About />
+          </section>
 
-        {/* Experience */}
-        <section id="experience-section" className="snap-center h-screen">
-          <Experience />
-        </section>
+          {/* Experience */}
+          <section id="experience-section" className="snap-center h-screen">
+            <Experience />
+          </section>
 
-        {/* PROJECTS */}
-        <section
-          id="project-section"
-          className="snap-center h-screen px-10 pt-10 overflow-y-scroll"
-        >
-          <ProjectsSection />
-        </section>
+          {/* PROJECTS */}
+          <section
+            id="project-section"
+            className="snap-center h-screen px-10 pt-10 overflow-y-scroll"
+          >
+            <ProjectsSection />
+          </section>
 
-        {/* CONTACT ME  */}
-        <section id="contactMe" className="snap-center h-screen">
-          <Contact />
-        </section>
-        <Nav />
-      </div>
+          {/* CONTACT ME  */}
+          <section id="contactMe" className="snap-center h-screen">
+            <Contact />
+          </section>
+          <Nav />
+        </div>
+      </body>
     </div>
   );
 }

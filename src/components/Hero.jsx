@@ -65,6 +65,7 @@ function Hero() {
       </motion.div>
       <motion.img
         src="https://i.ibb.co/VpjGXsS/20230424-192023000-i-OS-removebg-preview.png"
+        alt="Emoticon representing Remel"
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 2.5 }}
         whileInView={{ opacity: 1, x: 0 }}

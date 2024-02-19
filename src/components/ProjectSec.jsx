@@ -8,8 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Animated Image Carousel",
-    description:
-      "Designed and implemented a dynamic image carousel using HTML, CSS, and JavaScript. This versatile solution seamlessly adjusts to different devices, showcasing a blend of creativity and technical skill. Perfect for enhancing user engagement and visual appeal on web projects.",
+    description: "Responsive image carousel built with vanilla CSS",
     image: "https://i.ibb.co/RH6f5dD/Screenshot-2024-02-15-at-22-07-48.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/Image-carousel",
@@ -18,19 +17,20 @@ const projectsData = [
   {
     id: 2,
     title: "This Website!",
-    description: "Project 2 description",
+    description:
+      "Responsive application built using Next.js to display personal projects",
     image: "https://i.ibb.co/zFKBsXF/mockup.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/Portfolio",
-    previewUrl: "/",
+    previewUrl: "https://remcrw.me/#hero-section",
   },
   {
     id: 3,
-    title: "Etch-a-sketch",
-    description: "Project 3 description",
+    title: "Battleships",
+    description: "Verse the computer in an interactive Battleships Game",
     image: "https://i.ibb.co/ZMzq3LP/Screenshot-2024-01-19-at-22-23-54.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/remel-crowe/etch-a-sketch",
+    gitUrl: "https://github.com/remel-crowe/battleships",
     previewUrl: "/",
   },
 ];
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center uppercase tracking-[15px]  text-2xl  text-gray-500 mt-10 mb-16 md:mb-12">
+      <h2 className="text-center uppercase tracking-[15px] text-2xl text-gray-500 mt-10 mb-16 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
