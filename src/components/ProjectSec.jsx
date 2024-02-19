@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Battleships",
     description: "Verse the computer in an interactive Battleships Game",
-    image: "https://ibb.co/DrdLh8D",
+    image: "https://i.ibb.co/bbt7T2g/istockphoto-1411179874-612x612.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/battleships",
     previewUrl: "https://battleshipsv1.netlify.app/",
