@@ -20,7 +20,7 @@ const projectsData = [
     description:
       "Responsive application built using Next.js to display personal projects",
     image: "https://i.ibb.co/zFKBsXF/mockup.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Next.js"],
     gitUrl: "https://github.com/remel-crowe/Portfolio",
     previewUrl: "https://remcrw.me/#hero-section",
   },
@@ -71,8 +71,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Next.js"
+          isSelected={tag === "Next.js"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
