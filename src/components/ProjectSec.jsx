@@ -31,7 +31,7 @@ const projectsData = [
     image: "https://ibb.co/DrdLh8D",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/battleships",
-    previewUrl: "/",
+    previewUrl: "https://battleshipsv1.netlify.app/",
   },
 ];
 
