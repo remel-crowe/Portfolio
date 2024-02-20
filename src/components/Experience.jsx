@@ -9,7 +9,26 @@ function Experience() {
       company: "Archer Daniels Midland | ADM",
       position: "IT Analyst & 2nd Line Support",
       date: "OCT 22 - SEP 23",
-      description: "desc",
+      description: (
+        <>
+          • Supervised the introduction of new devices to networks utilising MS
+          Server and Active Directory
+          <br />
+          • Innovatively developed scripts to streamline and automate the
+          imaging process for new PCs and laptops. Increased efficiency and
+          accuracy while minimizing manual intervention.
+          <br />
+          • Utilised IBM Maximo to orchestrate and oversee the procurement
+          process for all UK offices and international operations in Kenya and
+          Ireland.
+          <br />
+          • 2nd Line Support through the use of ServiceNow. Resolved intricate
+          technical issues promptly, contributing to the overall efficiency of
+          IT support services.
+          <br />• Directed the procurement procedure and contributed to network
+          configurations for a new operational site.
+        </>
+      ),
       image: "https://i.ibb.co/N3tfh74/ADM.jpg",
     },
     {
@@ -17,8 +36,20 @@ function Experience() {
       company: "Astreya | Google",
       position: "Inventory Management Tech & 1st Line Support",
       date: "JULY 21 - OCT 22",
-      description:
-        "Designed and implemented a dynamic image carousel using HTML, CSS, and JavaScript. This versatile solution seamlessly adjusts to different devices, showcasing a blend of creativity and technical skill. Perfect for enhancing user engagement and visual appeal on web projects.",
+      description: (
+        <>
+          • Delivered comprehensive support for laptops and desktops across
+          diverse platforms, including Windows, MacOS, Linux, and ChromeOS.
+          Employed proactive troubleshooting strategies to ensure uninterrupted
+          functionality and user satisfaction.
+          <br />
+          • Inventory life cycle management: receiving assets, accessories,
+          imaging laptops & desktops, order fulfillment.
+          <br />• Utilising SAP (S4) for efficient asset management and an in
+          house ticketing system to fulfil and resolve customer requests,
+          consistently meeting SLA targets.
+        </>
+      ),
       image: "https://i.ibb.co/rpPhkcm/google.png",
     },
   ];

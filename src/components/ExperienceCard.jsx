@@ -24,17 +24,17 @@ function ExperienceCard({ img, position, company, date, description }) {
       variants={cardVariants}
       initial="initial"
       animate="animate"
-      className="flex flex-col rounded-lg items-center space-y-4 md:items-left flex-shrink-0 w-[80%] max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden md:snap-center "
+      className="flex flex-col rounded-lg items-center space-y-4 md:items-left flex-shrink-0 w-[80%] max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] cursor-pointer overflow-hidden md:snap-center "
     >
       <img
         className="h-24 w-24 md:h-32 md:w-32 object-cover mx-auto rounded-md"
         src={img}
         alt="Company Logo"
       />
-      <div className="px-2 md:px-10 text-center md:text-left">
-        <h4 className="text-lg md:text-4xl font-light">{position}</h4>
+      <div className="px-2 md:px-10 text-center md:text-center">
+        <h4 className="text-lg md:text-3xl font-light">{position}</h4>
         <p className="font-bold text-md md:text-2xl mt-1">{company}</p>
-        <div className="flex space-x-1 md:space-x-2 my-2">
+        <div className="flex space-x-1 md:space-x-2 my-2 justify-center">
           <FaPython className="h-4 md:h-10 md:w-6 rounded-full" />
           <FaApple className="h-4 md:h-10 md:w-6 rounded-full" />
           <VscFileSubmodule className="h-4 md:h-10 md:w-6 rounded-full" />
@@ -42,9 +42,7 @@ function ExperienceCard({ img, position, company, date, description }) {
         <p className="uppercase py-1 md:py-5 text-white text-sm md:text-lg">
           {date}
         </p>
-        <div className="list-disc space-y-1 md:space-y-4 ml-2 md:ml-5 text-sm md:text-lg">
-          {description}
-        </div>
+        <div className=" ml-2 md:ml-5 text-sm md:text-lg">{description}</div>
       </div>
     </motion.article>
   );
