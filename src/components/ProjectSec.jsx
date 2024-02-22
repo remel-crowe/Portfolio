@@ -7,31 +7,32 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Netflix Clone",
+    description:
+      "Netflix clone built on React.js pulling movies from The Movie Database API",
+    image: "https://i.ibb.co/8Xd1v9g/Screenshot-2024-02-22-at-17-19-21.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/remel-crowe/Netflix-Clone",
+    previewUrl: "",
+  },
+  {
+    id: 2,
     title: "Animated Image Carousel",
     description: "Responsive image carousel built with vanilla CSS",
     image: "https://i.ibb.co/RH6f5dD/Screenshot-2024-02-15-at-22-07-48.png",
-    tag: ["All", "Web"],
+    tag: ["All", "UI/UX"],
     gitUrl: "https://github.com/remel-crowe/Image-carousel",
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "This Website!",
     description:
       "Responsive application built using Next.js to display personal projects",
     image: "https://i.ibb.co/zFKBsXF/mockup.png",
-    tag: ["All", "Next.js"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/Portfolio",
     previewUrl: "https://remcrw.me/#hero-section",
-  },
-  {
-    id: 3,
-    title: "Battleships",
-    description: "Verse the computer in an interactive Battleships Game",
-    image: "https://i.ibb.co/bbt7T2g/istockphoto-1411179874-612x612.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/remel-crowe/battleships",
-    previewUrl: "https://battleshipsv1.netlify.app/",
   },
 ];
 
@@ -71,8 +72,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Next.js"
-          isSelected={tag === "Next.js"}
+          name="UI/UX"
+          isSelected={tag === "UI/UX"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
