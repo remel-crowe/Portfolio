@@ -59,7 +59,7 @@ function Experience() {
       <h2 className="absolute top-1 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl md:mt-0 w-full md:w-auto">
         Experience
       </h2>
-      <div className="scrolling-container w-full mt-24 md:mt-24 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 md:overflow-x-auto md:snap-mandatory md:snap-x">
+      <div className="scrolling-container overflow-x-auto w-full mt-24 md:mt-24 flex flex-row space-x-8 md:space-x-8 md:overflow-x-auto md:snap-mandatory md:snap-x">
         <ExperienceCard
           img={adm.image}
           position={adm.position}
