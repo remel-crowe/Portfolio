@@ -66,7 +66,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center uppercase tracking-[15px] text-2xl text-gray-500 mt-10 mb-16 md:mb-12">
+      <h2 className="text-center uppercase tracking-[15px] text-2xl text-gray-500 mb-12 md:mb-12">
         Latest Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">

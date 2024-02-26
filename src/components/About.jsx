@@ -8,7 +8,7 @@ function About() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="min-h-screen flex flex-col relative text-center max-w-7xl px-6 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
+        className="min-h-screen flex flex-col relative text-center max-w-7xl px-2 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
         <h2 className=" absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
           About
