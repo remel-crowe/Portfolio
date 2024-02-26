@@ -10,7 +10,7 @@ function About() {
         transition={{ duration: 1.5 }}
         className="min-h-screen flex flex-col relative text-center max-w-7xl px-2 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row"
       >
-        <h2 className=" absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl">
+        <h2 className=" absolute uppercase top-1 tracking-[15px] md:top-24 md:tracking-[20px] text-gray-500 text-2xl ">
           About
         </h2>
         <motion.img
@@ -26,7 +26,7 @@ function About() {
           src="https://i.ibb.co/F6bW78t/IMG-0897.jpg"
           className=" w-40 h-40 mt-[70px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
         ></motion.img>
-        <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20">
+        <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20 lg:mt-20">
           <h4 className="text-4xl">
             Heres a{" "}
             <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">

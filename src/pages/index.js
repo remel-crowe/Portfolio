@@ -21,29 +21,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <body>
-        <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden snap-y snap-mandatory scroll-smooth ">
+        <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll z-0 scrollbar gap-y-[400px] overflow-x-hidden scroll-smooth ">
           {/* LANDING PAGE */}
           <section
             id="hero-section"
-            className="snap-center px-10 h-screen md:mb-0 lg:mb-0"
+            className="snap-center px-10 h-screen md:mb-10 lg:mb-24"
           >
             <Hero />
           </section>
 
           {/* ABOUT ME */}
-          <section id="about-section" className="snap-center px-10 h-screen">
+          <section
+            id="about-section"
+            className="snap-center px-10 h-screen md:mb-10 lg:mb-16"
+          >
             <About />
           </section>
 
           {/* Experience */}
-          <section id="experience-section" className="snap-center h-screen">
+          <section
+            id="experience-section"
+            className="snap-center h-screen md:mb-10 lg:mb-16"
+          >
             <Experience />
           </section>
 
           {/* PROJECTS */}
           <section
             id="project-section"
-            className="snap-center h-screen px-10 pt-10 overflow-y-scroll"
+            className="snap-center h-screen px-10 pt-10 overflow-y-scroll md:mb-10 lg:mb-16"
           >
             <ProjectsSection />
           </section>

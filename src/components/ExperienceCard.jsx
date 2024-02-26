@@ -24,7 +24,7 @@ function ExperienceCard({ img, position, company, date, description }) {
       variants={cardVariants}
       initial="initial"
       animate="animate"
-      className="flex flex-col overflow-x-hidden rounded-lg items-center w-screen space-y-4 md:items-left flex-shrink-0 max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] cursor-pointer md:snap-center "
+      className="flex flex-col overflow-x-hidden rounded-lg items-center w-screen space-y-4 md:items-left flex-shrink-0 max-w-[500px] md:max-w-[600px] xl:max-w-[900px] p-5 md:p-10 bg-[#292929] cursor-pointer md:snap-center lg:max-h-[500px]"
     >
       <img
         className="h-24 w-24 md:h-32 md:w-32 object-cover mx-auto rounded-md"
