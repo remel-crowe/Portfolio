@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "Animated Image Carousel",
-    description: "Responsive image carousel built with vanilla CSS",
+    description: "Responsive image carousel built with HTML, JS and CSS",
     image: "https://i.ibb.co/RH6f5dD/Screenshot-2024-02-15-at-22-07-48.png",
     tag: ["All", "UI/UX"],
     gitUrl: "https://github.com/remel-crowe/Image-carousel",
@@ -33,6 +33,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/Portfolio",
     previewUrl: "https://remcrw.me/#hero-section",
+  },
+  {
+    id: 4,
+    title: "Battleships",
+    description:
+      "Interactive Battleships game where you face off against the computer, built with HTML, CSS, and JavaScript.",
+    image: "https://i.ibb.co/8zbFMFb/Screenshot-2024-02-23-at-13-23-08.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/remel-crowe/Battleships",
+    previewUrl: "https://battleshipsv1.netlify.app",
   },
 ];
 
@@ -57,7 +67,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center uppercase tracking-[15px] text-2xl text-gray-500 mt-10 mb-16 md:mb-12">
-        My Projects
+        Latest Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag

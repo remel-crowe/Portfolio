@@ -35,16 +35,19 @@ function About() {
             Introduction
           </h4>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
-            Hi visitor👋, my name is Remel and I&apos;m a frontend engineer with
-            a strong interest in developing engaging and meaningful online
-            experiences, whether it be through SEO, Content Creation or a
-            mixture of both.
+            Hey there! 👋 I&apos;m Remel, a frontend engineer passionate about
+            crafting captivating online experiences. My expertise lies in
+            developing impactful solutions that seamlessly blend frontend
+            development with elements of SEO and content creation. Whether
+            it&apos;s optimizing for search engines or curating engaging
+            content, I thrive on leveraging my skills to create meaningful
+            digital journeys.
           </p>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
-            My interest in web development sparked while in an IT position
-            within the Google offices. Being surrounded by hundreds of software
-            developers 5 days a week has its way of turning you into one... Or
-            at least a wannabe 😁
+            My fascination with web development ignited during my time in an IT
+            role at Google offices. Surrounded by a bustling community of
+            software developers day in and day out, it was hard not to catch the
+            bug &#8208; or at least aspire to! 😁
           </p>
           <p className="font-poppins text-sm md:text-md text-slate-200 ">
             Since then, I&apos;ve managed to start a{" "}
