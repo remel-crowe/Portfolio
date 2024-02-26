@@ -13,7 +13,7 @@ const projectsData = [
     image: "https://i.ibb.co/8Xd1v9g/Screenshot-2024-02-22-at-17-19-21.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/remel-crowe/Netflix-Clone",
-    previewUrl: "",
+    previewUrl: "https://netflix-clone-remcrw.netlify.app",
   },
   {
     id: 2,
