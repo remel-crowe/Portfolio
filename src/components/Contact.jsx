@@ -37,7 +37,7 @@ function Contact() {
           </h3>
         </div>
         <img
-          src="https://i.ibb.co/8x8N5Xt/20230424-191033000-i-OS-removebg.png"
+          src="https://i.ibb.co/VMSzZtJ/IMG-8071-removebg.png"
           alt="Emoticon representing Remel with a call sign"
           className="object-cover w-[200px] h-[200px] md:w-[500px] md:h-[600px] p-2 md:p-6 m-0"
         />
