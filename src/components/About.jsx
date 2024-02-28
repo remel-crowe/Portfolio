@@ -23,7 +23,7 @@ function About() {
           }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
-          src="https://i.ibb.co/F6bW78t/IMG-0897.jpg"
+          src="https://i.ibb.co/vmHYkGt/IMG-3125.jpg"
           className=" w-40 h-40 mt-[70px] md:mt-[100px] flex-shrink-0 rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[400px] xl:w-[500px] xl:h-[600px]"
         ></motion.img>
         <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[100px] md:pt-20 lg:mt-20">
