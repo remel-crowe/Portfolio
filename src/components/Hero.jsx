@@ -1,18 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython, FaGitAlt } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { SiTailwindcss, SiJavascript, SiSass } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircles from "./BackgroundCircles";
+import BackgroundCircles from "./About/BackgroundCircles";
 
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      "Pronounced: Rem-el",
       "Junior Web Developer",
       "SEO Expert",
-      "Guy-who-loves-the-gym.jsx",
+      "Tech Junkie",
+      "Eth-to-the-moon.jsx",
     ],
     loop: true,
     delaySpeed: 1500,
@@ -60,7 +60,7 @@ function Hero() {
           <SiSass className="text-pink-800 bg-white w-7 h-7 rounded-full border-none" />
           <SiTailwindcss className="text-cyan-400 w-7 h-7" />
           <FaNodeJs className="text-green-600 w-6 h-7" />
-          <FaPython className="w-7 h-7" />
+          <FaGitAlt className="text-orange-500 w-6 h-7" />
         </div>
       </motion.div>
       <motion.img

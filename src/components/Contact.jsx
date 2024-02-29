@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Contact() {
   return (
     <>
-      <div className="h-screen flex flex-col relative text-center max-w-7xl px-6 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row">
+      <div className="h-[900px] flex flex-col relative text-center max-w-7xl px-6 md:px-18 justify-evenly mx-auto items-center md:text-left md:flex-row">
         <h2 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-lg md:text-2xl">
           Thanks
         </h2>
@@ -17,23 +17,23 @@ function Contact() {
             <span className="text-lg">chat!</span>
           </h4>
           <h3 className="text-md md:text-xl">
-            I&apos;m looking to join a team of developers who can assist me in
-            developing my skillset and take me to the next level. If you feel I
-            may be a good fit for your team, let me know via<br></br>
+            I&apos;m actively looking to join a team of developers who can
+            assist in developing my skillset and guiding me to the next level.
+            If you feel I may be a good fit for your team, let me know via
+            <br></br>
             <a
-              className="hover:text-cyan-500 transition duration-300"
+              className="text-yellow-400 transition duration-300"
               href="mailto:remelscrowe@gmail.com"
             >
-              Email 📧&nbsp;
+              Email&nbsp;
             </a>
-            or drop me a&nbsp;
+            or drop me a message on &nbsp;
             <a
-              className="hover:text-cyan-500 transition duration-300"
-              href="https://telegram.me/remcrw"
+              className="text-yellow-400 transition duration-300"
+              href="https://linkedin.com/in/remel-s-crowe"
             >
-              Message📲
+              LinkedIn
             </a>
-            on Telegram.
           </h3>
         </div>
         <img
