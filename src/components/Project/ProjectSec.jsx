@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Electric Vehicle Data Visualisation (WIP)",
+    description:
+      "Utilises the Electric Vehicle Data API to fetch information about electric vehicles and allows users to search for specific vehicles. Currently implementing filtering by model and brand.",
+    image: "https://i.ibb.co/f0Bpcc2/Screenshot-2024-03-04-at-19-50-11.png",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/remel-crowe/ev-data-front",
+    previewUrl: "",
+  },
+  {
+    id: 2,
     title: "Netflix Clone",
     description:
       "Crafted using React, this Netflix Clone utilises The Movie Database API to dynamically fetch movies. Styled with Sass, it offers an authenication flow through Google's Firebase ",
@@ -15,8 +25,9 @@ const projectsData = [
     gitUrl: "https://github.com/remel-crowe/Netflix-Clone",
     previewUrl: "https://app.screencastify.com/v3/watch/WTrgUjf7GQWUhN80zNG1",
   },
+
   {
-    id: 2,
+    id: 3,
     title: "Electric Vehicle Data API",
     description:
       "Backend API for searching cars by model name, leveraging Node.js, Express.js, regular expressions, and MongoDB. This API provides a straightforward way for users to retrieve car data based on their specific search criteria.",
@@ -26,7 +37,7 @@ const projectsData = [
     previewUrl: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Animated Image Carousel",
     description: "Responsive image carousel built with HTML, JS and CSS",
     image: "https://i.ibb.co/RH6f5dD/Screenshot-2024-02-15-at-22-07-48.png",
@@ -35,7 +46,7 @@ const projectsData = [
     previewUrl: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "This Website!",
     description:
       "Responsive application built using Next.js to display personal projects",
@@ -45,7 +56,7 @@ const projectsData = [
     previewUrl: "https://remcrw.me/#hero-section",
   },
   {
-    id: 5,
+    id: 6,
     title: "Battleships",
     description:
       "Interactive Battleships game where you face off against the computer, built with HTML, CSS, and JavaScript.",
