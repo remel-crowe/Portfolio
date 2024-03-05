@@ -23,9 +23,8 @@ const projectsData = [
     image: "https://i.ibb.co/K50KqjW/Screenshot-2024-02-29-at-15-52-38.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/remel-crowe/Netflix-Clone",
-    previewUrl: "https://app.screencastify.com/v3/watch/WTrgUjf7GQWUhN80zNG1",
+    previewUrl: "https://n-clone-remcrw.netlify.app/",
   },
-
   {
     id: 3,
     title: "Electric Vehicle Data API",
