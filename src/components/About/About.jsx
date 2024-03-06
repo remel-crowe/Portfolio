@@ -43,24 +43,26 @@ function About() {
             ways.
           </p>
           <p className="font-poppins text-md md:text-lg text-slate-200 ">
-            While it hasn&apos;t been the easiest transition, it has surely been
-            fun! Some days I wake up and crunch through refactoring a project
-            and others I forget how to center a div. But I guess its all part of
-            the process. I&apos;m excited for the opportunities that lie ahead
-            and I&apos;m actively looking for a junior position.
+            Well, talk about a rollercoaster ride! One day, I&apos;m deep diving
+            into project refactoring and the next i&apos;m scratching my head
+            over how to center a div. But hey, I guess its all part of the
+            process, right? I can&apos;t wait to see whats around the corner for
+            me and im on the lookout for that junior position!
           </p>
           <p className="font-poppins text-md md:text-lg text-slate-200 ">
-            Outside of the workplace, I love to{" "}
+            When i&apos;m not at work, i&apos;m probably on the move, exploring
+            different corners of the world! My Goal? To visit 100 countries! My
+            latest adventure? A Three-month solo trip through Southeast Asia.
+            Curious? Click{" "}
             <a
               href="http://polarsteps.com/Remelcrowe"
               className="text-yellow-400 hover:underline font-bold"
               target="_blank"
             >
-              travel
+              here
             </a>{" "}
-            and Im on a mission to visit 100 countries. My last trip was a 3
-            month solo adventure through southeast Asia. Click 'travel' to check
-            it out! And yes... I did eat a scorpion.
+            to dive into the adventure. Oh, and by the way - Yes, I did eat a
+            scorpion.
           </p>
         </div>
       </motion.div>
