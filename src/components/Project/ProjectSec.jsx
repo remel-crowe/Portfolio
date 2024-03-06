@@ -10,7 +10,7 @@ const projectsData = [
     title: "Electric Vehicle Data Visualisation (WIP)",
     description:
       "Utilises the Electric Vehicle Data API to fetch information about electric vehicles and allows users to search for specific vehicles. Currently implementing comparison features",
-    image: "https://i.ibb.co/fdk4jrJ/Screenshot-2024-03-06-at-15-49-48.png",
+    image: "https://i.ibb.co/QNwW6y8/Screenshot-2024-03-06-at-19-15-11.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/remel-crowe/ev-data-front",
     previewUrl: "",
