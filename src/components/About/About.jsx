@@ -36,37 +36,31 @@ function About() {
           </h4>
           <p className="font-poppins text-md md:text-lg text-slate-200 ">
             Hey there! 👋 I&apos;m Remel, a frontend engineer passionate about
-            crafting captivating online experiences. My expertise lies in
-            developing impactful solutions that seamlessly blend frontend
-            development with elements of SEO and content creation. Whether
-            it&apos;s optimizing for search engines or curating engaging
-            content, I thrive on leveraging my skills to create meaningful
-            digital journeys.
+            crafting captivating online experiences. After nearly 4 years in the
+            IT industry, I decided it was time for a change and made the bold
+            decision to transition into software development. It&apos;s a move
+            fueled by passion, curiosity and a desire to challenge myself in new
+            ways.
           </p>
           <p className="font-poppins text-md md:text-lg text-slate-200 ">
-            My fascination with web development ignited during my time in an IT
-            role at Google offices. Surrounded by a bustling community of
-            software developers day in and day out, it was hard not to catch the
-            bug &#8208; or at least aspire to! 😁
+            While it hasn&apos;t been the easiest transition, it has surely been
+            fun! Some days I wake up and crunch through refactoring a project
+            and others I forget how to center a div. But I guess its all part of
+            the process. I&apos;m excited for the opportunities that lie ahead
+            and I&apos;m actively looking for a junior position.
           </p>
           <p className="font-poppins text-md md:text-lg text-slate-200 ">
-            Since then, I&apos;ve managed to become more obsessed with crypto,
-            travel to a few new{" "}
+            Outside of the workplace, I love to{" "}
             <a
               href="http://polarsteps.com/Remelcrowe"
               className="text-yellow-400 hover:underline font-bold"
               target="_blank"
             >
-              countries
+              travel
             </a>{" "}
-            and create a few projects — including this webpage! Check them
-            out&nbsp;
-            <a
-              href="#project-section"
-              className="animate-pulse text-yellow-400"
-            >
-              below!
-            </a>
+            and Im on a mission to visit 100 countries. My last trip was a 3
+            month solo adventure through southeast Asia. Click 'travel' to check
+            it out! And yes... I did eat a scorpion.
           </p>
         </div>
       </motion.div>
