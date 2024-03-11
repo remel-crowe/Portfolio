@@ -10,7 +10,7 @@ function Hero() {
   const [text, count] = useTypewriter({
     words: [
       "Junior Web Developer",
-      "SEO Expert",
+      "SEO Executive",
       "Currently on: 24/100 countries!",
     ],
     loop: true,
