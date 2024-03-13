@@ -19,3 +19,7 @@ A personal portfolio website built using Next.js. This project showcases my skil
 ## Deployment
 
 This website is deployed on Netlify and can be accessed at [remcrw.me](https://remcrw.me).
+
+## Acknowledgment
+
+If you find this project helpful and decide to use it as a base for your own work, I kindly ask that you provide attribution by mentioning my name and linking back to the original repository. Thank you!
