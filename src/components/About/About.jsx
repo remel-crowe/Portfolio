@@ -35,7 +35,7 @@ function About() {
             Introduction
           </h4>
           <p className=" text-xs md:text-lg text-slate-200 ">
-            Hey there! 👋 I&apos;m Remel, a frontend engineer passionate about
+            Hey there! 👋 I&apos;m Remel, a software engineer passionate about
             crafting captivating online experiences. After nearly 4 years in the
             IT industry, I decided it was time for a change and made the bold
             decision to transition into software development. It&apos;s a move

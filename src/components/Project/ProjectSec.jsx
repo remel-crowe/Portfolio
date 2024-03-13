@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Not Netflix!",
     description:
-      "Crafted using React, this Netflix Clone utilises The Movie Database API to dynamically fetch movies. Styled with Sass, it offers an authenication flow through Google's Firebase. Please be sure to use a dummy email and password when visiting the site!",
+      "Crafted using React, this Netflix Clone utilises The Movie Database API to dynamically fetch movies. Styled with Sass, it offers an authenication flow through Google's Firebase and uses Redux for state management. Please be sure to use a dummy email and password when visiting the site!",
     image: "https://i.ibb.co/K50KqjW/Screenshot-2024-02-29-at-15-52-38.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/remel-crowe/Netflix-Clone",
