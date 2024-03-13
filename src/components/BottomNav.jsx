@@ -3,10 +3,14 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
-  AiOutlineHome,
 } from "react-icons/ai";
-
 import { BsDiscord } from "react-icons/bs";
+
+/*
+ * If you find this code useful in your project, please consider giving credit
+ * by mentioning the author 'Remel Crowe' and linking back to the original repository:
+ * [https://github.com/remel-crowe/Portfolio]
+ */
 
 const Nav = () => {
   const [isBottom, setIsBottom] = useState(false);

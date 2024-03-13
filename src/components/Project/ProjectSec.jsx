@@ -4,6 +4,12 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
+/*
+ * If you find this code useful in your project, please consider giving credit
+ * by mentioning the author 'Remel Crowe' and linking back to the original repository:
+ * [https://github.com/remel-crowe/Portfolio]
+ */
+
 const projectsData = [
   {
     id: 1,

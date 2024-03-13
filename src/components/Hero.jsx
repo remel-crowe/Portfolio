@@ -6,6 +6,12 @@ import { SiTailwindcss, SiJavascript, SiSass, SiRedux } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./About/BackgroundCircles";
 
+/*
+ * If you find this code useful in your project, please consider giving credit
+ * by mentioning the author 'Remel Crowe' and linking back to the original repository:
+ * [https://github.com/remel-crowe/Portfolio]
+ */
+
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
