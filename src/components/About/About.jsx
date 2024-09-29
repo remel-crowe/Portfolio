@@ -29,7 +29,7 @@ function About() {
         <div className="space-y-5 md:space-y-10 px-0 md:px-10 mb-[90px] md:pt-20 lg:mt-20">
           <h4 className="text-4xl">
             Heres a{" "}
-            <span className="  text-xl underline text-yellow-400 hover:text-4xl hover:transition duration-300">
+            <span className="  text-xl underline text-lime-400 hover:text-4xl hover:transition duration-300">
               little
             </span>{" "}
             Introduction
@@ -56,7 +56,7 @@ function About() {
             Curious? Click{" "}
             <a
               href="http://polarsteps.com/Remelcrowe"
-              className="text-yellow-400 hover:underline font-bold"
+              className="text-lime-400 hover:underline font-bold"
               target="_blank"
             >
               here

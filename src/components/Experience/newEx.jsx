@@ -12,11 +12,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       <div>
         <h3 className="capitalize font-bold text-xl md:text-2xl mb-1">
           {position}&nbsp;
-          <a href={companyLink} target="_blank" className="text-yellow-400">
+          <a href={companyLink} target="_blank" className="text-lime-400">
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-yellow-400/80">
+        <span className="capitalize font-medium text-lime-400">
           {time} | {address}
         </span>
         <p className="font-medium w-full mt-2">{work}</p>

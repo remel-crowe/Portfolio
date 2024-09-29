@@ -6,6 +6,13 @@ function Experience() {
   const experienceData = [
     {
       id: 1,
+      company: "Digital Futures",
+      position: "Software Engineering Trainee",
+      date: "April 2024 - August 2024",
+      description: "description",
+    },
+    {
+      id: 2,
       company: "Searchsavvy",
       position: "SEO Executive",
       date: "2023 - Present",
@@ -15,7 +22,7 @@ function Experience() {
       link: "",
     },
     {
-      id: 2,
+      id: 3,
       company: "ADM",
       position: "IT Analyst",
       date: "October 2022 - September 2023",
@@ -23,23 +30,15 @@ function Experience() {
         "Core member of the IT team handling all IT needs accross UK offices and two international operations. Successfully restructured and ran a national refresh project and developed automation scripts as part of this effort. Involved with UI/UX updates on the user portal and in charge of redisignning training material.",
     },
     {
-      id: 3,
+      id: 4,
       company: "Astreya - Google",
       position: "Technical Support",
       date: "July 2021 - October 2022",
       description:
         "Provided expertise within laptop and desktop support accross multiple platforms: MacOS, Linux, Windows, iOS. Involved with inventory lifecycle management from start to end. Utilised SAP(S4) to resolve customer requests and issues within SLA targets.",
     },
-    {
-      id: 4,
-      company: "Repairshack",
-      position: "Lead Technician",
-      date: "July 2019 - October 2023",
-      description:
-        "Delivering on-site technical support, handling hardware device repairs and providing troubleshooting solutions. Additionally, efficiently managed and supported a team of couriers responsible for transporting customer devices. By implementing a Just-in-Time (JIT) model, I effectively reduced storage overheads for the business. Furthermore, I took charge of organizing and leading training courses for a group of over 20 individuals, ensuring they were equipped with the necessary skills and knowledge.",
-    },
   ];
-  const [Searchsavvy, adm, astreya, repairshack] = [
+  const [Digitalfutures, Searchsavvy, adm, astreya] = [
     experienceData[0],
     experienceData[1],
     experienceData[2],
@@ -56,13 +55,15 @@ function Experience() {
         Experience
       </h2>
 
-      {/* <div ref={ref} className="w-[100%] md:w-[90%] mx-auto relative"> */}
-      {/* <motion.div
-          style={{ scaleY: scrollYProgress }}
-          className="absolute top-0 left-8 w-[4px] h-full bg-yellow-400 origin-top sm:hidden"
-        /> */}
-
       <ul className="w-full lg:w-[70%] flex flex-col items-start justify-between ml-4">
+        <Details
+          position={Digitalfutures.position}
+          company={Digitalfutures.company}
+          companyLink={Digitalfutures.link}
+          time={Digitalfutures.date}
+          address="Online"
+          work={Digitalfutures.description}
+        />
         <Details
           position={Searchsavvy.position}
           company={Searchsavvy.company}
@@ -86,14 +87,6 @@ function Experience() {
           time={astreya.date}
           address="London, UK"
           work={astreya.description}
-        />
-        <Details
-          position={repairshack.position}
-          company={repairshack.company}
-          companyLink={repairshack.link}
-          time={repairshack.date}
-          address="London, UK"
-          work={repairshack.description}
         />
       </ul>
     </div>

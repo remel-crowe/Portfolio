@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Remel Crowe 💻 | Front End Developer & SEO Expert</title>
+        <title>Remel Crowe 💻 | Software Engineer & SEO Expert</title>
         <meta
           name="description"
-          content="London based Front End Developer and SEO Expert."
+          content="London based Software Engineer and SEO Expert."
         />
 
         <link rel="icon" href="/favicon.png" />

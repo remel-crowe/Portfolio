@@ -1,8 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaPython, FaGitAlt, FaHtml5 } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaGitAlt,
+  FaHtml5,
+  FaJava,
+} from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
-import { SiTailwindcss, SiJavascript, SiSass, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiChai } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./About/BackgroundCircles";
 
@@ -15,9 +22,10 @@ import BackgroundCircles from "./About/BackgroundCircles";
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      "Junior Software Engineer",
+      "Software Engineer",
       "SEO Executive",
       "Currently on: 24/100 countries!",
+      "EV Enthusiast",
     ],
     loop: true,
     delaySpeed: 1500,
@@ -30,14 +38,14 @@ function Hero() {
         whileInView={{ x: 0 }}
         className=" absolute top-0 py-10 mb-12"
       >
-        <h1 className="text-xl font-raleway text-yellow-400">remcrw</h1>
+        <h1 className="text-xl font-raleway text-lime-400">remcrw</h1>
       </motion.nav>
       <div className="flex flex-col space-y-8 items-center justify-center text-center ">
         <BackgroundCircles />
         <h1 className=" dark:text-white py-2 font-unbounded text-6xl bg-clip-text text-white z-1">
           Remel Straker - Crowe
         </h1>
-        <h3 className=" text-yellow-400 text-xl font-poppins">
+        <h3 className=" text-lime-400 text-xl font-poppins">
           <span className="">{text}</span>
           <Cursor cursorColor="#F7AB8A" />
         </h3>
@@ -64,10 +72,11 @@ function Hero() {
           <FaPython className=" text-green-500 0 w-7 h-7" />
           <FaHtml5 className="w-6 h-7 text-orange-600" />
           <DiCss3 className="text-blue-700 w-7 h-7 z-20" />
-          <SiSass className="text-pink-800 bg-white w-7 h-7 rounded-full border-none" />
-          <SiRedux className="text-purple-400 w-7 h-7" />
+          <SiTailwindcss className="text-cyan-300 w-7 h-7 rounded-full border-none" />
+          <SiChai className="text-red-500 w-7 h-7" />
           <FaNodeJs className="text-green-600 w-6 h-7" />
           <FaGitAlt className="text-orange-500 w-6 h-7" />
+          <FaJava className="text-red-600 w-6 h-7" />
         </div>
       </motion.div>
       <motion.img

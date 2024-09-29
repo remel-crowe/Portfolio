@@ -22,14 +22,14 @@ function Contact() {
             If you feel I may be a good fit for your team, let me know via
             <br></br>
             <a
-              className="text-yellow-400 transition duration-300"
+              className="text-lime-400 transition duration-300"
               href="mailto:remelscrowe@gmail.com"
             >
               Email&nbsp;
             </a>
             or drop me a message on &nbsp;
             <a
-              className="text-yellow-400 transition duration-300"
+              className="text-lime-400 transition duration-300"
               href="https://linkedin.com/in/remel-s-crowe"
             >
               LinkedIn
