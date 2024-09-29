@@ -9,7 +9,8 @@ function Experience() {
       company: "Digital Futures",
       position: "Software Engineering Trainee",
       date: "April 2024 - August 2024",
-      description: "description",
+      description:
+        "•	Developed and deployed full-stack applications using the MERN stack •	Curated and executed test suites, generated coverage reports and wrote user stories •	Employed Test-Driven development using JEST & Chai •	Engaged in API integration, data manipulation and worked with MongoDB •	Developed a non-technical skillset: agile, communication, teamwork.",
     },
     {
       id: 2,
