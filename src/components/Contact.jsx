@@ -10,26 +10,27 @@ function Contact() {
         </h2>
         <div className="space-y-4 px-2 md:px-10 text-center mt-12 md:mt-0">
           <h3 className="text-lg md:text-3xl">
-            Unfortunately, this is the end of my portfolio
+            You&apos;ve reached the end of my portfolio
           </h3>
-          <h4 className="text-md md:text-xl">
-            Or the start of something new 🙌 - Let&#39;s have a&nbsp;
+          <h4 className="text-md md:text-xl text-lime-400">
+            But it could be the start of something great 🙌 - Let&#39;s have
+            a&nbsp;
             <span className="text-lg">chat!</span>
           </h4>
           <h3 className="text-md md:text-xl">
-            I&apos;m actively looking to join a team of developers who can
-            assist in developing my skillset and guiding me to the next level.
-            If you feel I may be a good fit for your team, let me know via
-            <br></br>
+            I&apos;m actively looking to join a team of developers where I can
+            continue to grow my skillset while also contributing my knowledge
+            and enthusiasm to deliver great results. If you think I&apos;d be a
+            good fit for your team, let&apos;s connect! You can reach me via
             <a
-              className="text-lime-400 transition duration-300"
+              className="text-lime-400 transition duration-300 font-bold hover:text-lime-500"
               href="mailto:remelscrowe@gmail.com"
             >
-              Email&nbsp;
+              &nbsp;email&nbsp;
             </a>
             or drop me a message on &nbsp;
             <a
-              className="text-lime-400 transition duration-300"
+              className="text-lime-400 transition duration-300 font-bold hover:text-lime-500"
               href="https://linkedin.com/in/remel-s-crowe"
             >
               LinkedIn

@@ -35,19 +35,25 @@ function About() {
             Introduction
           </h4>
           <p className=" text-xs md:text-lg text-slate-200 ">
-            Hey there! 👋 I&apos;m Remel, a software engineer passionate about
-            crafting captivating online experiences. After nearly 4 years in the
-            IT industry, I decided it was time for a change and made the bold
-            decision to transition into software development. It&apos;s a move
-            fueled by passion, curiosity and a desire to challenge myself in new
-            ways.
+            Hey! 👋 I&apos;m Remel, a software engineer passionate about
+            creating engaging online experiences. After nearly 4 years in the IT
+            industry, I made a bold shift into software development, driven by
+            curiosity and the need to challenge myself. Recently, I completed an
+            intensive 12-week full-stack development academy, where I dove deep
+            into the MERN stack. I developed and deployed full-stack
+            applications, implemented Test-Driven Development (TDD) using Jest
+            and Chai, and gained hands-on experience with API integration,
+            MongoDB, and writing user stories. It&apos;s been an exciting
+            learning curve, blending technical skills with Agile practices and
+            teamwork.
           </p>
           <p className=" text-xs md:text-lg text-slate-200 ">
-            Well, talk about a rollercoaster ride! One day, I&apos;m deep diving
-            into project refactoring and the next i&apos;m scratching my head
-            over how to center a div. But hey, I guess its all part of the
-            process, right? I can&apos;t wait to see whats around the corner for
-            me and im on the lookout for that junior position!
+            Every day brings a new challenge—whether it&apos;s refactoring code,
+            building out test suites, or handling API data manipulation.
+            It&apos;s been an incredibly rewarding journey, and I&apos;m excited
+            to apply everything I&apos;ve learned in a junior developer role.
+            There&apos;s so much more to explore, and I can&apos;t wait to see
+            what&apos;s next!
           </p>
           <p className=" text-xs md:text-lg text-slate-200 ">
             When i&apos;m not at work, i&apos;m probably on the move, exploring

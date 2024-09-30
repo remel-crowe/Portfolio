@@ -24,8 +24,8 @@ function Hero() {
     words: [
       "Software Engineer",
       "SEO Executive",
-      "Currently on: 24/100 countries!",
-      "EV Enthusiast",
+      "Travel Fanatic - Currently on 24/100 countries!",
+      "Avid Gamer (FPS & MMORPG)",
     ],
     loop: true,
     delaySpeed: 1500,
