@@ -66,17 +66,21 @@ function Hero() {
         }}
         className="flex justify-center"
       >
-        <div className="flex items-center gap-5 ">
-          <FaReact className="text-cyan-500 w-7 h-7" />
-          <SiJavascript className="text-yellow-500 w-6 h-6" />
-          <FaPython className=" text-green-500 0 w-7 h-7" />
-          <FaHtml5 className="w-6 h-7 text-orange-600" />
-          <DiCss3 className="text-blue-700 w-7 h-7 z-20" />
-          <SiTailwindcss className="text-cyan-300 w-7 h-7 rounded-full border-none" />
-          <SiChai className="text-red-500 w-7 h-7" />
-          <FaNodeJs className="text-green-600 w-6 h-7" />
-          <FaGitAlt className="text-orange-500 w-6 h-7" />
-          <FaJava className="text-red-600 w-6 h-7" />
+        <div className="flex flex-col items-center md:gap-5 md:flex-row">
+          <div className="flex gap-5 mb-2 md:mb-0">
+            <FaReact className="text-cyan-500 w-7 h-7" />
+            <SiJavascript className="text-yellow-500 w-6 h-6" />
+            <FaPython className=" text-green-500 0 w-7 h-7" />
+            <FaHtml5 className="w-6 h-7 text-orange-600" />
+            <DiCss3 className="text-blue-700 w-7 h-7 z-20" />
+          </div>
+          <div className="flex gap-5">
+            <SiTailwindcss className="text-cyan-300 w-7 h-7 rounded-full border-none" />
+            <SiChai className="text-red-500 w-7 h-7" />
+            <FaNodeJs className="text-green-600 w-6 h-7" />
+            <FaGitAlt className="text-orange-500 w-6 h-7" />
+            <FaJava className="text-red-600 w-6 h-7" />
+          </div>
         </div>
       </motion.div>
       <motion.img
